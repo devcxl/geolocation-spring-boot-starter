@@ -1,0 +1,7 @@
+geolocation:
+    account-id: ${GEO_ACCOUNT_ID}
+    license-key: ${GEO_LICENSE_KEY}
+    cache: true
+    locals:
+        - zh-CN
+    resource: file:/tmp/geolocation/database.mmdb
